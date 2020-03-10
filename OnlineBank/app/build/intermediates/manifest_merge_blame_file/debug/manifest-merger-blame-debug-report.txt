@@ -1,0 +1,293 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.onlinebank"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml
+10
+11    <!-- <application -->
+12    <!-- android:allowBackup="true" -->
+13    <!-- android:icon="@mipmap/ic_launcher" -->
+14    <!-- android:label="@string/app_name" -->
+15    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+16    <!-- android:supportsRtl="true" -->
+17    <!-- android:theme="@style/AppTheme"> -->
+18    <!-- <activity android:name=".MainActivity"> -->
+19    <!-- <intent-filter> -->
+20    <!-- <action android:name="android.intent.action.MAIN" /> -->
+21    <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+22    <!-- </intent-filter> -->
+23    <!-- </activity> -->
+24    <!-- </application> -->
+25    <application
+25-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:20:5-152:19
+26        android:allowBackup="true"
+26-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.1] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:22:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:23:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:24:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:25:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:26:9-40
+35        <activity android:name="com.example.onlinebank.project.banking.MainActivity" >
+35-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:27:13-33:24
+35-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:27:23-67
+36            <intent-filter>
+36-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:28:21-32:37
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:29:29-81
+37-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:29:37-78
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:31:29-89
+39-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:31:39-86
+40            </intent-filter>
+41        </activity>
+42        <!-- // menu -->
+43        <activity
+43-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:35:9-37:50
+44            android:name="com.example.onlinebank.project.banking.admin.AdminMenuActivity"
+44-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:36:13-68
+45            android:label="@string/admin_menu" />
+45-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:37:13-47
+46        <activity
+46-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:38:9-40:51
+47            android:name="com.example.onlinebank.project.banking.teller.TellerMenuActivity"
+47-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:39:13-70
+48            android:label="@string/teller_menu" />
+48-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:40:13-48
+49        <activity
+49-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:41:9-43:48
+50            android:name="com.example.onlinebank.project.banking.atm.AtmMenuActivity"
+50-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:42:13-64
+51            android:label="@string/atm_menu" />
+51-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:43:13-45
+52        <!-- // inside admin menu -->
+53        <activity
+53-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:45:9-47:49
+54            android:name="com.example.onlinebank.project.banking.admin.NewAdminInfoActivity"
+54-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:46:13-71
+55            android:label="@string/new_admin" />
+55-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:47:13-46
+56        <activity
+56-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:48:9-50:50
+57            android:name="com.example.onlinebank.project.banking.admin.NewTellerActivity"
+57-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:49:13-68
+58            android:label="@string/new_teller" />
+58-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:50:13-47
+59        <activity
+59-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:51:9-53:50
+60            android:name="com.example.onlinebank.project.banking.admin.AdminListActivity"
+60-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:52:13-68
+61            android:label="@string/admin_list" />
+61-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:53:13-47
+62        <activity
+62-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:54:9-56:51
+63            android:name="com.example.onlinebank.project.banking.admin.TellerListActivity"
+63-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:55:13-69
+64            android:label="@string/teller_list" />
+64-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:56:13-48
+65        <activity
+65-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:57:9-59:53
+66            android:name="com.example.onlinebank.project.banking.admin.CustomerListActivity"
+66-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:58:13-71
+67            android:label="@string/customer_list" />
+67-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:59:13-50
+68        <activity
+68-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:60:9-62:53
+69            android:name="com.example.onlinebank.project.banking.admin.AdminMainMessageActivity"
+69-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:61:13-75
+70            android:label="@string/admin_message" />
+70-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:62:13-50
+71        <activity
+71-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:63:9-65:60
+72            android:name="com.example.onlinebank.project.banking.admin.AdminViewTotalBalanceActivity"
+72-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:64:13-80
+73            android:label="@string/admin_view_total_bal" />
+73-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:65:13-57
+74        <activity
+74-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:66:9-68:62
+75            android:name="com.example.onlinebank.project.banking.admin.AdminBankTotalMoneyActivity"
+75-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:67:13-78
+76            android:label="@string/admin_view_total_money" />
+76-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:68:13-59
+77        <activity
+77-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:69:9-71:47
+78            android:name="com.example.onlinebank.project.banking.admin.AdminPromoteActivity"
+78-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:70:13-71
+79            android:label="@string/promote" />
+79-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:71:13-44
+80        <activity
+80-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:72:9-74:52
+81            android:name="com.example.onlinebank.project.banking.admin.AdminMessageActivity"
+81-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:73:13-71
+82            android:label="@string/view_own_msg" />
+82-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:74:13-49
+83        <activity
+83-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:75:9-77:52
+84            android:name="com.example.onlinebank.project.banking.admin.AdminAnyMessageActivity"
+84-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:76:13-74
+85            android:label="@string/view_any_msg" />
+85-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:77:13-49
+86        <activity
+86-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:78:9-80:49
+87            android:name="com.example.onlinebank.project.banking.admin.AdminLeaveMessageActivity"
+87-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:79:13-76
+88            android:label="@string/leave_msg" />
+88-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:80:13-46
+89        <activity
+89-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:81:9-83:52
+90            android:name="com.example.onlinebank.project.banking.admin.AdminViewMessageActivity"
+90-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:82:13-75
+91            android:label="@string/view_message" />
+91-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:83:13-49
+92        <!-- // inside teller menu -->
+93        <activity
+93-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:85:9-87:55
+94            android:name="com.example.onlinebank.project.banking.teller.TellerAuthCustomerActivity"
+94-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:86:13-78
+95            android:label="@string/teller_auth_cus" />
+95-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:87:13-52
+96        <activity
+96-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:88:9-90:55
+97            android:name="com.example.onlinebank.project.banking.teller.TellerMakeUserActivity"
+97-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:89:13-74
+98            android:label="@string/teller_make_cus" />
+98-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:90:13-52
+99        <activity
+99-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:91:9-93:59
+100            android:name="com.example.onlinebank.project.banking.teller.TellerMakeAccountActivity"
+100-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:92:13-77
+101            android:label="@string/teller_make_account" />
+101-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:93:13-56
+102        <activity
+102-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:94:9-96:60
+103            android:name="com.example.onlinebank.project.banking.teller.TellerGiveInterestActivity"
+103-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:95:13-78
+104            android:label="@string/teller_give_interest" />
+104-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:96:13-57
+105        <activity
+105-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:97:9-99:59
+106            android:name="com.example.onlinebank.project.banking.teller.TellerDepositActivity"
+106-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:98:13-73
+107            android:label="@string/teller_make_deposit" />
+107-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:99:13-56
+108        <activity
+108-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:100:9-102:62
+109            android:name="com.example.onlinebank.project.banking.teller.TellerWithdrawActivity"
+109-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:101:13-74
+110            android:label="@string/teller_make_withdrawal" />
+110-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:102:13-59
+111        <activity
+111-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:103:9-105:60
+112            android:name="com.example.onlinebank.project.banking.teller.TellerCheckBalanceActivity"
+112-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:104:13-78
+113            android:label="@string/teller_check_balance" />
+113-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:105:13-57
+114        <activity
+114-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:106:9-108:52
+115            android:name="com.example.onlinebank.project.banking.teller.TellerListAccountsActivity"
+115-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:107:13-78
+116            android:label="@string/account_list" />
+116-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:108:13-49
+117        <activity
+117-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:109:9-111:56
+118            android:name="com.example.onlinebank.project.banking.teller.TellerViewTotalBalanceActivity"
+118-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:110:13-82
+119            android:label="@string/teller_total_bal" />
+119-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:111:13-53
+120        <activity
+120-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:112:9-114:58
+121            android:name="com.example.onlinebank.project.banking.teller.TellerUpdateCustomerInfoActivity"
+121-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:113:13-84
+122            android:label="@string/teller_update_info" />
+122-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:114:13-55
+123        <activity
+123-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:115:9-117:54
+124            android:name="com.example.onlinebank.project.banking.teller.TellerMainMessageActivity"
+124-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:116:13-77
+125            android:label="@string/teller_message" />
+125-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:117:13-51
+126        <activity
+126-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:118:9-120:49
+127            android:name="com.example.onlinebank.project.banking.teller.TellerLeaveMessageActivity"
+127-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:119:13-78
+128            android:label="@string/leave_msg" />
+128-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:120:13-46
+129        <activity
+129-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:121:9-123:57
+130            android:name="com.example.onlinebank.project.banking.teller.TellerViewCustomerMessageActivity"
+130-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:122:13-85
+131            android:label="@string/view_your_cus_msg" />
+131-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:123:13-54
+132        <activity
+132-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:124:9-126:52
+133            android:name="com.example.onlinebank.project.banking.teller.TellerViewItsMessagesActivity"
+133-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:125:13-81
+134            android:label="@string/view_own_msg" />
+134-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:126:13-49
+135        <activity
+135-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:127:9-129:52
+136            android:name="com.example.onlinebank.project.banking.teller.TellerViewMessageActivity"
+136-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:128:13-77
+137            android:label="@string/view_message" />
+137-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:129:13-49
+138        <!-- // inside atm menu -->
+139        <activity
+139-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:131:9-133:56
+140            android:name="com.example.onlinebank.project.banking.atm.AtmListAccountsActivity"
+140-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:132:13-72
+141            android:label="@string/atm_account_list" />
+141-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:133:13-53
+142        <activity
+142-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:134:9-136:51
+143            android:name="com.example.onlinebank.project.banking.atm.AtmDepositActivity"
+143-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:135:13-67
+144            android:label="@string/atm_deposit" />
+144-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:136:13-48
+145        <activity
+145-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:137:9-139:52
+146            android:name="com.example.onlinebank.project.banking.atm.AtmWithdrawActivity"
+146-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:138:13-68
+147            android:label="@string/atm_withdraw" />
+147-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:139:13-49
+148        <activity
+148-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:140:9-142:55
+149            android:name="com.example.onlinebank.project.banking.atm.AtmCheckBalanceActivity"
+149-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:141:13-72
+150            android:label="@string/check_bal_label" />
+150-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:142:13-52
+151        <activity
+151-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:143:9-145:51
+152            android:name="com.example.onlinebank.project.banking.atm.AtmMainMessageActivity"
+152-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:144:13-71
+153            android:label="@string/atm_message" />
+153-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:145:13-48
+154        <activity
+154-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:146:9-148:52
+155            android:name="com.example.onlinebank.project.banking.atm.AtmViewMessageActivity"
+155-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:147:13-71
+156            android:label="@string/view_message" />
+156-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:148:13-49
+157        <activity
+157-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:149:9-151:54
+158            android:name="com.example.onlinebank.project.banking.ForgetPasswordActivity"
+158-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:150:13-67
+159            android:label="@string/forget_password" />
+159-->C:\Users\USER\Desktop\OnlineBank\app\src\main\AndroidManifest.xml:151:13-52
+160    </application>
+161
+162</manifest>

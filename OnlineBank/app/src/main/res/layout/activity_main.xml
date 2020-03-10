@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+    android:orientation="vertical"
+  tools:context="com.example.onlinebank.project.banking.MainActivity">
+
+  <ImageView
+    android:id="@+id/jbfb_logo"
+    android:layout_width="280dp"
+    android:layout_height="100dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:contentDescription="@string/logo_description"
+    app:layout_constraintBottom_toTopOf="@+id/login_idd"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:srcCompat="@drawable/bank" />
+  <TextView
+      android:id="@+id/get_userId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:layout_marginStart="66dp"
+      android:text="@string/get_id"
+      android:textSize="@dimen/input_text"
+      android:textColor="@color/colorGetInfo"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+    android:id="@+id/login_idd"
+    android:layout_width="253dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/userid_hint"
+    android:inputType="number"
+      android:gravity="right"
+    app:layout_constraintHorizontal_bias="0.505"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/get_userId" />
+
+  <TextView
+    android:id="@+id/get_userpw"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="66dp"
+    android:layout_marginLeft="66dp"
+    android:text="@string/get_pw"
+    android:textColor="@color/colorGetInfo"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:layout_marginTop="16dp"
+    app:layout_constraintTop_toBottomOf="@+id/login_idd" />
+
+
+
+  <EditText
+    android:id="@+id/login_pw"
+    android:layout_width="252dp"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/pw_hint"
+      android:gravity="right"
+    android:inputType="textPassword"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    android:layout_marginTop="8dp"
+    app:layout_constraintTop_toBottomOf="@+id/get_userpw" />
+<!--<RelativeLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--  android:orientation="vertical">-->
+
+  <Button
+      android:id="@+id/button_login"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="@string/login"
+      android:layout_centerHorizontal="true"
+      />
+
+  <Button
+    android:id="@+id/button_forget_password"
+    android:layout_width="170dp"
+    android:layout_height="45dp"
+    android:text="@string/forget_password"
+    android:breakStrategy="high_quality"
+    android:layout_toRightOf="@+id/button_login"
+    android:clickable="true"/>
+<!--</RelativeLayout>-->
+</LinearLayout>
